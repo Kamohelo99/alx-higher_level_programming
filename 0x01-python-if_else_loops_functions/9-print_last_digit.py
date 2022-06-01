@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def print_last_digit(number):
-    if number < 0:  #difference in modulo between python and c
+    if number < 0:
         abs = number * -1
         digit = (abs % 10)
     else:
